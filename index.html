@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hover using js</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <hi>
+    <div id="message">
+      Hover over an image to display the alt text.
+    </div>
+
+    <img class="preview" alt="Iguazy falls" src="https://www.touropia.com/gfx/b/2009/05/iguazu_falls.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <img class="preview" alt="Victoria falls" src="https://www.touropia.com/gfx/b/2009/05/victoria_falls.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <img class="preview" alt="Niagara falls" src="https://www.touropia.com/gfx/b/2009/05/niagara_falls.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <img class="preview" alt="Angel falls" src="https://www.touropia.com/gfx/b/2009/05/angel_falls-1.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <img class="preview" alt="Blue nile falls" src="https://www.touropia.com/gfx/b/2009/05/blue_nile_falls.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <img class="preview" alt="Detian waterfall" src="https://www.touropia.com/gfx/b/2009/05/Detian_waterfall.jpg"
+      onmouseover="showProperties(this)"
+      onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
